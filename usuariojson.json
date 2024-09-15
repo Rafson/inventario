@@ -1,0 +1,122 @@
+[
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario1@example.com",
+        "id": 1,
+        "senha": "senha1",
+        "status": 1,
+        "usuario": "usuario1"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario2@example.com",
+        "id": 2,
+        "senha": "senha2",
+        "status": 1,
+        "usuario": "usuario2"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario3@example.com",
+        "id": 3,
+        "senha": "senha3",
+        "status": 1,
+        "usuario": "usuario3"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario4@example.com",
+        "id": 4,
+        "senha": "senha4",
+        "status": 1,
+        "usuario": "usuario4"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario5@example.com",
+        "id": 5,
+        "senha": "senha5",
+        "status": 1,
+        "usuario": "usuario5"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario6@example.com",
+        "id": 6,
+        "senha": "senha6",
+        "status": 1,
+        "usuario": "usuario6"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario7@example.com",
+        "id": 7,
+        "senha": "senha7",
+        "status": 1,
+        "usuario": "usuario7"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario8@example.com",
+        "id": 8,
+        "senha": "senha8",
+        "status": 1,
+        "usuario": "usuario8"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario9@example.com",
+        "id": 9,
+        "senha": "senha9",
+        "status": 1,
+        "usuario": "usuario9"
+    },
+    {
+        "createdOn": "2024-09-15 13:31:56",
+        "email": "usuario10@example.com",
+        "id": 10,
+        "senha": "senha10",
+        "status": 1,
+        "usuario": "usuario10"
+    },
+    {
+        "createdOn": "2024-09-15 19:06:04",
+        "email": "emailA@email.com.br",
+        "id": 11,
+        "senha": "senhaA",
+        "status": 1,
+        "usuario": "usuarioA"
+    },
+    {
+        "createdOn": "2024-09-15 19:12:46",
+        "email": "emailA@email.com.br",
+        "id": 12,
+        "senha": "senhaA",
+        "status": 1,
+        "usuario": "usuarioA"
+    },
+    {
+        "createdOn": "2024-09-15 19:13:18",
+        "email": "emailA@email.com.br",
+        "id": 13,
+        "senha": "senhaA",
+        "status": 1,
+        "usuario": "usuarioA"
+    },
+    {
+        "createdOn": "2024-09-15 19:13:39",
+        "email": "emailA@email.com.br",
+        "id": 14,
+        "senha": "senhaA",
+        "status": 1,
+        "usuario": "usuarioA"
+    },
+    {
+        "createdOn": "2024-09-15 19:14:57",
+        "email": "emailA@email.com.br",
+        "id": 15,
+        "senha": "senhaA",
+        "status": 1,
+        "usuario": "usuarioA"
+    }
+]
