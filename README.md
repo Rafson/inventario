@@ -18,18 +18,18 @@ RoadMAP
 - VM
   - ADD (Adicionar 1) -
   - UPDATE (Atualizar 1) -
-  - DELETE (Apagar 1) - OK
+  - DELETE (Apagar 1) - 
   - SELECT (retornoar apenas 1) -
   - LIST ALL (Listar todos) -
 - Robo
   - ADD (Adicionar 1) -
   - UPDATE (Atualizar 1) -
-  - DELETE (Apagar 1) - OK
+  - DELETE (Apagar 1) - 
   - SELECT (retornoar apenas 1) -
   - LIST ALL (Listar todos) -
 - Usuario Especial de Robo
   - ADD (Adicionar 1) -
   - UPDATE (Atualizar 1) -
-  - DELETE (Apagar 1) - OK
+  - DELETE (Apagar 1) - 
   - SELECT (retornoar apenas 1) -
   - LIST ALL (Listar todos) -
