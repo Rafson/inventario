@@ -51,7 +51,13 @@ def usuario_login():
     print('LOGIN')
     retorno_login = usuario.login()
     return jsonify(retorno_login)
+#ESQUECI A SENHA
 
+@app.route('/app/usuario/esqueci_senha', methods=['POST'])
+def esqueci_senha():
+    print('Esqueci a senha')
+    retorno = usuario.esqueci_senha()
+    return jsonify(retorno)
 #TESTE
 @app.route('/api/usuario/teste', methods=['GET'])
 def usuario_teste():

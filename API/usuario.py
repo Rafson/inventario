@@ -18,6 +18,8 @@ def login(): #Realiza login com senha
     retornoUsuario = query(f"{query_login}")
     return retornoUsuario
 
+def esqueci_senha(): 
+    return "Método não implementado"
 def update(atualizacao): #Atualizar usuario ja existente
     try:
         retorno="OK"
