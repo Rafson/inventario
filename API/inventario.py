@@ -52,12 +52,23 @@ def usuario_login():
     retorno_login = usuario.login()
     return jsonify(retorno_login)
 #ESQUECI A SENHA
-
+    #NAO ACHEI UM ENVIO DE EMAIL GRATIS PARA TESTAR
 @app.route('/app/usuario/esqueci_senha', methods=['POST'])
-def esqueci_senha():
+def esqueci_senha(): #TODO FALTA TERMINAR ESSE METODO
     print('Esqueci a senha')
     retorno = usuario.esqueci_senha()
     return jsonify(retorno)
+
+#TROCAR A SENHA
+@app.route('/app/usuario/troca_senha', methods=['POST'])
+def troca_senha(senha_atual, repita_senha_atual, senha_nova):
+    retorno = ""
+    if(senha_atual==senha_nova):
+        print('A senha pode ser trocada')
+        retorno = usuario.troca_senha()
+    else:
+        print('Atuais e repetida são diferentes')
+
 #TESTE
 @app.route('/api/usuario/teste', methods=['GET'])
 def usuario_teste():

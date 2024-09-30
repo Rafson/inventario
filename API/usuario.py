@@ -131,3 +131,34 @@ def query(query):
 
     # Fecha a conexão com o banco de dados
     conn.close()
+def troca_senha(id, senha_nova): #Atualizar usuario ja existente
+    try:
+        retorno="OK"
+        dados_json = json.loads(str(atualizacao))
+        id = dados_json['id']
+        usuario = dados_json['usuario']
+        senha = dados_json['senha']
+        email = dados_json['email']
+        status= dados_json['status']
+        if id!="" and usuario!="" and senha!="" and email!="" and status!="":
+            query = f"UPDATE tbUsuario set senha='{senha}', email='{email}', status='{status}' WHERE id={id}"
+            print(query)
+            resposta = queryAddUpdate(query)
+            if resposta=="":
+                resposta="Atualizado com sucesso"
+            else:
+                resposta=f"Problema na inserção: {resposta}"
+        else:
+            resposta = "Execução falhou"
+        print(resposta)
+        
+    except sqlite3.OperationalError as e:
+        # Captura erros relacionados à operação do banco de dados (como tabela não encontrada)
+        retorno=f"Erro operacional: {e}"
+    except sqlite3.DatabaseError as e:
+        # Captura erros gerais de banco de dados
+        retorno=f"Erro de banco de dados: {e}"
+    except Exception as e:
+        # Captura qualquer outra exceção genérica
+        retorno=f"Ocorreu um erro inesperado: {e}"
+    return retorno
